@@ -2,6 +2,7 @@
 <script>
 export let data
 $:dt = data.data.dt
+$: console.log(data.data.dt)
 </script>
 
 

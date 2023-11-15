@@ -5,7 +5,7 @@ export const load= async({params})=>{
    const detail=async()=>{
       try{
          const {id} = params
-         const dt = await fetch(`http://127.0.0.1:8000/books/${id}`).then((res)=> res.json())
+         const dt = await fetch(`https://ayomiku1.pythonanywhere.com/books/${id}`).then((res)=> res.json())
          return { 
              dt
          }
